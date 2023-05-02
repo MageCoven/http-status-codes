@@ -32,6 +32,8 @@ Object.defineProperty(exports, "getReasonPhrase", { enumerable: true, get: funct
 Object.defineProperty(exports, "getStatusText", { enumerable: true, get: function () { return utils_functions_2.getStatusText; } });
 var status_codes_1 = require("./status-codes");
 Object.defineProperty(exports, "StatusCodes", { enumerable: true, get: function () { return status_codes_1.StatusCodes; } });
+var status_classes_1 = require("./status-classes");
+Object.defineProperty(exports, "StatusClasses", { enumerable: true, get: function () { return status_classes_1.StatusClasses; } });
 var reason_phrases_1 = require("./reason-phrases");
 Object.defineProperty(exports, "ReasonPhrases", { enumerable: true, get: function () { return reason_phrases_1.ReasonPhrases; } });
 __exportStar(require("./legacy"), exports);
